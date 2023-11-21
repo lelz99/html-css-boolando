@@ -28,9 +28,9 @@ img{
 
 footer{
     background-color: #1A1A1A;
-    padding: 40px;
+    padding: 20px;
     color: white;
-    margin-top: 40px;
+    margin-top: 30px;
 }
 
 /* Utils */
@@ -170,3 +170,29 @@ s{
 
 /* Footer */
 
+.footer{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+h4{
+    font-size: 1.4rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+h6{
+    font-size: 1rem; 
+    margin-bottom: 10px;
+}
+
+.right-footer > a{
+    font-size: 14px;
+    margin: 0 4px 0 0;
+}
+
+.left-footer > i {
+    font-size: 30px;
+    margin-left: 4px;
+}
