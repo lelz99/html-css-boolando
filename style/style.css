@@ -26,15 +26,17 @@ img{
     height: auto;
 }
 
-.relative{
-    position: relative;
-
+footer{
+    background-color: #1A1A1A;
+    padding: 40px;
+    color: white;
+    margin-top: 40px;
 }
 
 /* Utils */
 
-.border{
-    border: 1px dashed black;
+.relative{
+    position: relative;
 }
 
 /* Header */
@@ -94,11 +96,11 @@ header{
     display: none;
 }
 
-#change-image:hover .primary-image{
+.change-image:hover .primary-image{
     display: none;
 }
 
-#change-image:hover .secondary-image{
+.change-image:hover .secondary-image{
     display: block;
 }
 
@@ -137,9 +139,15 @@ header{
     left: 55px;
 }
 
+#ticket-different{
+left: 10px;
+bottom: 90px;
+}
+
 /* Etichette e testo */
 
-figcaption{
+.name-brand{
+    color: black;
     font-weight: 100;
     font-size: 12px;
 }
@@ -159,3 +167,6 @@ s{
     margin-left: 4px;
     font-weight: normal;
 }
+
+/* Footer */
+
