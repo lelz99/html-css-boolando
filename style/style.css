@@ -17,6 +17,19 @@ a{
     color: white;
 }
 
+main{
+    padding-top: 100px;
+}
+
+img{
+    width: 100%;
+    height: auto;
+}
+
+.relative{
+    position: relative;
+}
+
 /* Utils */
 
 .border{
@@ -43,13 +56,46 @@ header{
 .navbar-person{
     font-size: 12px;
     font-weight: 600;
+    padding: 10px;
 }
 
 .navbar-icon{
     color: white;
     font-size: 10px;
+    padding: 10px;
 }
 
 #logo{
     width: 100px;
+}
+
+
+/* Main */
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.col{
+    flex-basis: calc(100% / 3);
+    padding: 10px;
+}
+
+/* Immagini */
+
+.primary-image{
+    display: block;
+}
+
+.secondary-image{
+    display: none;
+}
+
+#change-image:hover .primary-image{
+    display: none;
+}
+
+#change-image:hover .secondary-image{
+    display: block;
 }
